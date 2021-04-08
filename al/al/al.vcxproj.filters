@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="interview">
+      <UniqueIdentifier>{34a78440-b486-4d3e-bb90-a15111bee8a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stl">
+      <UniqueIdentifier>{efeed75a-59df-43b1-9ba7-38b9f0e1ee4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="socket">
+      <UniqueIdentifier>{b9537d00-f97a-4fae-9062-00430f56a51f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glog">
+      <UniqueIdentifier>{778e50f3-e0ac-4db5-b79e-03457cd6cc0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{63ae5438-78dc-45a3-8905-0191f996a227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protobuf">
+      <UniqueIdentifier>{b57b697d-9f94-4157-9df8-34098b8c7e29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedNode.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorting.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Searching.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="interview\C++11_Ptr.h">
+      <Filter>interview</Filter>
+    </ClInclude>
+    <ClInclude Include="stl\TestStl.h">
+      <Filter>stl</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\GLogTool.h">
+      <Filter>glog</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\GTestTool.h">
+      <Filter>gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\DrdServerControl.pb.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MasterMessgeDef.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="al.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestLinkedNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test222.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StackTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SortTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="X.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Searching.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="interview\C++11_Ptr.cpp">
+      <Filter>interview</Filter>
+    </ClCompile>
+    <ClCompile Include="stl\TestStl.cpp">
+      <Filter>stl</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\TestSocket.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="glog\GLogTool.cpp">
+      <Filter>glog</Filter>
+    </ClCompile>
+    <ClCompile Include="glog\GTestTool.cpp">
+      <Filter>gtest</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\DrdServerControl.pb.cpp">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
